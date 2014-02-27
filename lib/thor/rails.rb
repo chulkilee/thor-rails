@@ -1,4 +1,4 @@
-# require "thor/rails/version"
+require "thor/rails/version"
 
 # thor extension to load rails environment before running tasks
 # Thor commands must include the module which will start the rails

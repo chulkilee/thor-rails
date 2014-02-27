@@ -25,6 +25,8 @@ be booted when your action is invoked.
 **NOTE:** The environment loaded can be controlled via the standard `RAILS_ENV` environmental variable.
 
 ```ruby
+require 'thor/rails'
+
 class MyCommand < Thor
   include Thor::Rails
 

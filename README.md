@@ -33,7 +33,7 @@ class MyCommand < Thor
   desc 'do_something', 'do some work'
   def do_something
     # Rails environment is loaded and available!
-    say Rails.env
+    say ::Rails.env
   end
 end
 ```
